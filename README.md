@@ -1,7 +1,7 @@
 # 数字の桁区切り in javascript
 ## やっていること
 
-数字（int）を三桁ずつカンマで区切った文字列（str）に変換する。
+数字（int）を三桁ずつカンマで区切った文字列（str）に変換する。  
 つまり、簡単に書くと以下のように書ける。
 
 ```js
@@ -9,7 +9,7 @@ var num = 12345;
 num.toLocaleString(); // return '12,345'
 ```
 
-しかし`Number.prototype.toLocaleString()`はInternetExproler、Edgeにおいて実装後のバージョンも不具合がある。（なぜ？？）
+しかし`Number.prototype.toLocaleString()`はInternetExproler、Edgeにおいて実装後のバージョンも不具合がある。
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString
 
 ## 解決策
