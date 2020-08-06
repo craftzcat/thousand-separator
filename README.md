@@ -31,8 +31,8 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/St
 - ブラウザによって正規表現の動作が異なるパターンがありそう。
 
 ## テスト
-- `./spec`配下に配置
-- [testem](https://github.com/testem/testem)とPhantomJS
+- テストファイルは`./spec`配下に配置
+- [testem](https://github.com/testem/testem)を仕様
 
 ### 環境構築
 
