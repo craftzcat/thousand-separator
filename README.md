@@ -39,10 +39,8 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/St
 - 実行にはGoogleChromeが必要。
 
 ``` shell
-# package.jsonを元にtestemをインストール
-yarn install
-# or (npmの人用)
-npm install testem
+# testemをインストール
+npm install testem -g
 ```
 
 ### テストの実行
