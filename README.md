@@ -32,7 +32,7 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/St
 
 ## テスト
 - テストファイルは`./spec`配下に配置
-- [testem](https://github.com/testem/testem)を仕様
+- [testem](https://github.com/testem/testem)を使用
 
 ### 環境構築
 
